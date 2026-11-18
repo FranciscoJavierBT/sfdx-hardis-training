@@ -1,0 +1,16 @@
+{
+  "sfdxHardisLabel": "Handover checklist reference data",
+  "sfdxHardisDescription": "The 10 Handover Item template records required by every installation.",
+  "objects": [
+    {
+      "query": "SELECT\n    External_Id__c,\n    Installation__c,\n    Label__c,\n    Sequence__c,\n    Is_Done__c,\n    Is_Template__c\nFROM Handover_Item__c",
+      "operation": "Upsert",
+      "externalId": "External_Id__c",
+      "master": true,
+      "deleteOldData": false,
+      "useQueryAll": false,
+      "allOrNone": true,
+      "updateWithMockData": false
+    }
+  ]
+}
