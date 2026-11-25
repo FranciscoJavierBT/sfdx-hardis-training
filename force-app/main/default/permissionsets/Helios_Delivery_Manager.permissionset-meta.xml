@@ -161,15 +161,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-<<<<<<< HEAD
         <field>Panel_Batch__c.Supplier__c</field>
         <readable>true</readable>
     </fieldPermissions>    
-=======
         <field>Panel_Batch__c.Warranty_Years__c</field>
         <readable>true</readable>
     </fieldPermissions>
->>>>>>> e7c1f7d (US-058 Record the warranty term on a panel batch (#35))
     <hasActivationRequired>false</hasActivationRequired>
     <label>Helios Delivery Manager</label>
     <objectPermissions>
